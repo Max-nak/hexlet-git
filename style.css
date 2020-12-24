@@ -1,0 +1,28 @@
+.container {
+	width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    
+}
+.box {
+	background-color: red;
+	border: 2px solid green;
+	width: 100px;
+	height: 100px;
+}
+
+/*temporary styles*/
+header{
+    background-color: fuchsia;
+}
+.head{
+    background-color: hotpink;
+}
