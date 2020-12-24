@@ -1,7 +1,18 @@
+
+/*temporary styles*/
+header{
+    background-color: fuchsia;
+}
+.head{
+    background-color: hotpink;
+}
+/*end*/
+
 .container {
 	width: 1000px;
     margin: 0 auto;
     padding: 0;
+    font-family: PT Sans, sans-serif;
 }
 header{
     height: 100px;
@@ -12,17 +23,42 @@ nav a{
     text-decoration: none;
     
 }
-.box {
-	background-color: red;
-	border: 2px solid green;
-	width: 100px;
-	height: 100px;
+main{
+    display: flex;
 }
-
-/*temporary styles*/
-header{
-    background-color: fuchsia;
+.left{
+    width: 35%;
+    background-color: lawngreen;
 }
-.head{
-    background-color: hotpink;
+.right{
+    width: 65%;
+    background-color: magenta;
+}
+article img{
+    width: 150px;
+    cursor: pointer;
+}
+.s1a1{
+    background-color: orange;
+    margin: 10px 10px;
+}
+.s1a2{
+    background-color: orange;
+    margin: 10px 10px;
+}
+.s2a1{
+    background-color: orange;
+    margin: 10px 10px;
+}
+.s2a2{
+    background-color: orange;
+    margin: 10px 10px;
+}
+.s2a3{
+    background-color: orange;
+    margin: 10px 10px;
+}
+.s2a4{
+    background-color: orange;
+    margin: 10px 10px;
 }
