@@ -1,16 +1,14 @@
 /*temporary styles*/
 
 header {
-    background-color: gray;
-}
-
-.head {
-    background-color: gray;
+    background-image: url("lords-of-rings-vlastelin.jpg");
+    position: fixed;
 }
 
 /*end*/
 .BigBox{
-    border: 0;
+    width: 1000px;
+    margin: -7px auto;
 }
 body {
     font-family: PT Sans, sans-serif;
@@ -29,7 +27,6 @@ a:hover {
 
 .container {
     width: 1000px;
-    margin: -5px auto;
     border-radius: 5px;
 }
 
@@ -41,6 +38,7 @@ header {
 
 main {
     display: flex;
+    padding-top: 100px;
 }
 
 .left {
@@ -51,20 +49,22 @@ main {
 .right {
     width: 70%;
     background-color: none;
+    margin-left: 20px
 }
 
 article img {
     width: 150px;
     cursor: pointer;
-    margin: 10px;
+    margin: 20px;
 }
 
 article {
-    background-image: url('blank.jpg');
-    margin: 10px;
-    padding: 10px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
     border: 0;
     border-radius: 5px;
+    box-shadow: black;
 }
 
 article h2 {
