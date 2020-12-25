@@ -9,6 +9,7 @@ header{
 /*end*/
 body{
     font-family: PT Sans, sans-serif;
+    background-image: url('/back.jpg');
 }
 a{
     color: #404040;
