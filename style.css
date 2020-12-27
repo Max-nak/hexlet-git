@@ -15,7 +15,10 @@ body {
     background-image: url('back.jpg');
     background-attachment: scroll;
 }
-
+.GO{
+    color: #00ff00;
+    cursor: pointer;
+}
 a, p span{
     color: #666666;
     text-decoration: none;
@@ -42,14 +45,16 @@ main {
 }
 
 .left {
-    width: 30%;
+    width: 18,5%;
     background-color:none;
+    position: fixed;
+
 }
 
 .right {
     width: 70%;
     background-color: none;
-    margin-left: 20px
+    margin-left: 30%;
 }
 
 article img {
